@@ -1,0 +1,25 @@
+spring:
+  #  jpa:
+  #   showSql: true
+  #   properties:
+  #    hibernate.jdbc.batch_size: 10
+  #    hibernate.jdbc.time_zone: "Europe/Moscow"
+  #  datasource:
+  #    hikari:
+  #      maximum-pool-size: 10
+  #      connection-timeout: 10000
+  #      username:
+  #      password:
+  #      url:
+  #  data:
+  #    jpa:
+  #      repositories:
+  #        bootstrap-mode: lazy
+  main:
+    lazy-initialization: true
+
+base-url:
+  back: https://official-joke-api.appspot.com
+logging.level.org.springframework.web.reactive.function.client.ExchangeFunctions: TRACE
+#logging.level.org.hibernate.SQL: DEBUG
+#logging.level.org.hibernate.type.descriptor.sql.BasicBinder: TRACE
